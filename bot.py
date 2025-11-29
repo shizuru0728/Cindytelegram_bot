@@ -3,7 +3,7 @@ import asyncio
 from telegram import Update, ReplyKeyboardMarkup, InputMediaPhoto
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.environ["8596791211:AAFYTRE0EALcaRVnzUMAZpdFCA_FPJsY72A"]  # ✅ 从环境变量读取
+BOT_TOKEN = os.environ["BOT_TOKEN"]  # ✅ 从环境变量读取
 
 # ================== 主選單鍵盤 ==================
 MENU_KEYBOARD = [
